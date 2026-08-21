@@ -3,15 +3,24 @@ package com.radwan.nova
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.radwan.nova.ui.navigation.AppNavigation
-import com.radwan.nova.ui.theme.NOVAChatTheme
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            NOVAChatTheme {
-                AppNavigation()
+            MaterialTheme {
+                Surface(modifier = Modifier.fillMaxSize()) {
+                    Box(contentAlignment = Alignment.Center) {
+                        Text(text = "مرحباً بك في NOVA Chat")
+                    }
+                }
             }
         }
     }
