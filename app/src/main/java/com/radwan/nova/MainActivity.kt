@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
             MaterialTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
                     Box(contentAlignment = Alignment.Center) {
-                        Text(text = "مرحباً بك في NOVA Chat")
+                        Text(text = "NOVA Chat")
                     }
                 }
             }
