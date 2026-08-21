@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">نوفا تشات</string>
+    <string name="tagline">تواصل. شارك. انطلق.</string>
+    <string name="developer">رضوان المسوري</string>
+    <string name="copyright">© 2026 رضوان المسوري. جميع الحقوق محفوظة.</string>
+    <string name="chats">المحادثات</string>
+    <string name="spaces">المساحات</string>
+    <string name="calls">المكالمات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="online_now">متصل الآن</string>
+    <string name="send">إرسال</string>
+    <string name="type_message">اكتب رسالة...</string>
+</resources>
